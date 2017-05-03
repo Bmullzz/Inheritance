@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85c79041-aa2d-4bb5-a707-53aaecec7269" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/mullin/brian/inheritance/classManager/ProductTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/mullin/brian/InheritanceTests/InventoryTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/mullin/brian/InheritanceTests/ManagerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/mullin/brian/InheritanceTests/ProductTest.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/classManager/Inventory.java" afterPath="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/classManager/Inventory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/classManager/InventoryMain.java" afterPath="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/classManager/InventoryMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/classManager/Manager.java" afterPath="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/classManager/Manager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/classManager/Product.java" afterPath="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/classManager/Product.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/rotateArray/RotateArray.java" afterPath="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/rotateArray/RotateArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/Human.java" afterPath="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/Human.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/SuperMain.java" afterPath="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/SuperMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mullin/brian/InheritanceTests/InventoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/mullin/brian/InheritanceTests/InventoryTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,7 +25,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5225">
+    <splitter split-orientation="horizontal" split-proportion="0.48">
       <split-first>
         <leaf>
           <file leaf-file-name="InventoryMain.java" pinned="false" current-in-tab="false">
@@ -52,35 +51,8 @@
           <file leaf-file-name="Product.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/classManager/Product.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
-                  <caret line="36" column="15" lean-forward="false" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
-                  <folding>
-                    <element signature="e#569#570#0" expanded="true" />
-                    <element signature="e#596#597#0" expanded="true" />
-                    <element signature="e#627#628#0" expanded="true" />
-                    <element signature="e#655#656#0" expanded="true" />
-                    <element signature="e#681#682#0" expanded="true" />
-                    <element signature="e#706#707#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ManagerTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/mullin/brian/InheritanceTests/ManagerTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="InventoryTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/mullin/brian/InheritanceTests/InventoryTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                <state relative-caret-position="600">
+                  <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -103,19 +75,33 @@
           <file leaf-file-name="SuperMain.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/SuperMain.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+                <state relative-caret-position="90">
+                  <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Human.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Human.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/Human.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+                <state relative-caret-position="510">
+                  <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ProductTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/mullin/brian/inheritance/classManager/ProductTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="612">
+                  <caret line="67" column="100" lean-forward="false" selection-start-line="67" selection-start-column="100" selection-end-line="67" selection-end-column="100" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#253#254#0" expanded="true" />
+                    <element signature="e#317#318#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -125,6 +111,16 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="75">
                   <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="RotateArray.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/rotateArray/RotateArray.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="915">
+                  <caret line="61" column="7" lean-forward="false" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -163,14 +159,19 @@
         <option value="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/abstractClass/classManager/polymorphism/rotateArray/superHumans/SuperMayne.java" />
         <option value="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/SuperHumans.java" />
         <option value="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/SuperMayne.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/SuperMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/classManager/InventoryMain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/rotateArray/RotateArray.java" />
         <option value="$PROJECT_DIR$/src/test/java/mullin/brian/InheritanceTests/InventoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/classManager/Inventory.java" />
         <option value="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/Human.java" />
         <option value="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/classManager/Manager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mullin/brian/InheritanceTests/classManagerTests/ProductTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mullin/brian/InheritanceTests/classManagerTests/classManagerTests/ProductTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/rotateArray/RotateArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/SuperMain.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mullin/brian/InheritanceTests/ProductTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mullin/brian/inheritance/ProductTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/classManager/Product.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mullin/brian/inheritance/classManager/ProductTest.java" />
       </list>
     </option>
   </component>
@@ -247,7 +248,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="InheritanceTests" />
+              <option name="myItemId" value="classManager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -375,85 +376,140 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration default="false" name="RotateArrayMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="mullin.brian.inheritance.classManager" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ProductTest.testGetQuantity">
+    <configuration default="false" name="ProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="rotateArray.*" />
+          <option name="PATTERN" value="mullin.brian.inheritance.classManager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="rotateArray.RotateArrayMain" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="Inheritance" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="mullin.brian.inheritance.classManager" />
+      <option name="MAIN_CLASS_NAME" value="mullin.brian.inheritance.classManager.ProductTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Inheritance" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
+      <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ProductTest.testCalculateAddition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="rotateArray.*" />
+          <option name="PATTERN" value="mullin.brian.inheritance.classManager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="rotateArray.RotateArray" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="Inheritance" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="mullin.brian.inheritance.classManager" />
+      <option name="MAIN_CLASS_NAME" value="mullin.brian.inheritance.classManager.ProductTest" />
+      <option name="METHOD_NAME" value="testCalculateAddition" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Inheritance" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
+      <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="SuperMayne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ProductTest.testGetPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="mullin.brian.inheritance.abstractClass.classManager.polymorphism.rotateArray.superHumans.*" />
+          <option name="PATTERN" value="mullin.brian.inheritance.classManager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="mullin.brian.inheritance.abstractClass.classManager.polymorphism.rotateArray.superHumans.SuperMayne" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="Inheritance" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="mullin.brian.inheritance.classManager" />
+      <option name="MAIN_CLASS_NAME" value="mullin.brian.inheritance.classManager.ProductTest" />
+      <option name="METHOD_NAME" value="testGetPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Inheritance" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
+      <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="SuperMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ProductTest.testGetId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="mullin.brian.inheritance.superHumans.*" />
+          <option name="PATTERN" value="mullin.brian.inheritance.classManager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="mullin.brian.inheritance.superHumans.SuperMain" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="Inheritance" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="mullin.brian.inheritance.classManager" />
+      <option name="MAIN_CLASS_NAME" value="mullin.brian.inheritance.classManager.ProductTest" />
+      <option name="METHOD_NAME" value="testGetId" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Inheritance" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ProductTest.testGetQuantity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="mullin.brian.inheritance.classManager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Inheritance" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="mullin.brian.inheritance.classManager" />
+      <option name="MAIN_CLASS_NAME" value="mullin.brian.inheritance.classManager.ProductTest" />
+      <option name="METHOD_NAME" value="testGetQuantity" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -829,18 +885,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.RotateArrayMain" />
-      <item index="1" class="java.lang.String" itemvalue="Application.RotateArray" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SuperMayne" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SuperMain" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ProductTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ProductTest.testCalculateAddition" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ProductTest.testGetPrice" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ProductTest.testGetId" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ProductTest.testGetQuantity" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.SuperMain" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SuperMayne" />
-        <item index="2" class="java.lang.String" itemvalue="Application.RotateArray" />
-        <item index="3" class="java.lang.String" itemvalue="Application.RotateArrayMain" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ProductTest.testGetQuantity" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ProductTest.testGetId" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ProductTest.testGetPrice" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ProductTest.testCalculateAddition" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ProductTest" />
       </list>
     </recent_temporary>
   </component>
@@ -854,12 +912,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493669905727</updated>
-      <workItem from="1493669912248" duration="29967000" />
+      <workItem from="1493669912248" duration="33597000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ProductTest_testCalculateAddition - 2017.05.03 at 18h 13m 12s.xml">
+      <configuration name="ProductTest.testCalculateAddition" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductTest_testCalculateAddition - 2017.05.03 at 18h 14m 25s.xml">
+      <configuration name="ProductTest.testCalculateAddition" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductTest_testCalculateAddition - 2017.05.03 at 18h 16m 12s.xml">
+      <configuration name="ProductTest.testCalculateAddition" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductTest_testCalculateAddition - 2017.05.03 at 18h 17m 03s.xml">
+      <configuration name="ProductTest.testCalculateAddition" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductTest_testCalculateAddition - 2017.05.03 at 18h 19m 49s.xml">
+      <configuration name="ProductTest.testCalculateAddition" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductTest_testGetId - 2017.05.03 at 18h 30m 08s.xml">
+      <configuration name="ProductTest.testGetId" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductTest_testGetId - 2017.05.03 at 18h 30m 18s.xml">
+      <configuration name="ProductTest.testGetId" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductTest_testGetPrice - 2017.05.03 at 18h 26m 24s.xml">
+      <configuration name="ProductTest.testGetPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductTest_testGetPrice - 2017.05.03 at 18h 26m 36s.xml">
+      <configuration name="ProductTest.testGetPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductTest_testGetQuantity - 2017.05.03 at 18h 32m 04s.xml">
+      <configuration name="ProductTest.testGetQuantity" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29967000" />
+    <option name="totallyTimeSpent" value="33597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-293" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -882,6 +972,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -892,7 +983,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -943,14 +1033,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mullin/brian/InheritanceTests/ProductTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/mullin.brian.inheritance.superHumans">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -978,58 +1060,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/rotateArray/RotateArray.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/classManager/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="225">
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/classManager/Inventory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mullin/brian/InheritanceTests/InventoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mullin/brian/InheritanceTests/ManagerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/mullin/brian/InheritanceTests/classManagerTests/InventoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/SuperHuman.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/mullin/brian/InheritanceTests/classManagerTests/ManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/SuperMain.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/mullin/brian/InheritanceTests/classManagerTests/ProductTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1042,25 +1100,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/classManager/Manager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/rotateArray/RotateArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="915">
+          <caret line="61" column="7" lean-forward="false" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/SuperHuman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/classManager/Inventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/SuperMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/classManager/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="15" lean-forward="false" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+        <state relative-caret-position="600">
+          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mullin/brian/inheritance/classManager/ProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="67" column="100" lean-forward="false" selection-start-line="67" selection-start-column="100" selection-end-line="67" selection-end-column="100" />
           <folding>
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
           </folding>
         </state>
       </provider>
