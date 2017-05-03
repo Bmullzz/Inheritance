@@ -8,7 +8,7 @@ public class SuperMain {
     public static void main (String[] args) {
 
         Human brian = new Human("Brian", 24, true, "Student", "208 N. Spring Valley Rd.");
-
+//could overide with a toString instead of typing out system.out.println a bunch of times
         System.out.println("Human Profile");
         System.out.println("Name: " + brian.getName());
         System.out.println("Age: " + brian.getAge());

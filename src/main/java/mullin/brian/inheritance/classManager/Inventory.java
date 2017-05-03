@@ -5,6 +5,7 @@ package mullin.brian.inheritance.classManager;
  */
 public class Inventory {
 
-    //Track products
-    //sum inventory
+    //Track multiple products
+    //sum inventory value
+
 }

@@ -9,13 +9,13 @@ import java.util.*;
 public class RotateArray
 {
 
-    /*public static void main(String[] args)
+    public static void main(String[] args)
     {
 
         public class numberArray
         {
 
-/*
+
         ArrayList<Num> num = new Arraylist<1, 2, 3, 4, 5>;  //Create new array list
 
         int rotateBy = 3;
@@ -59,5 +59,5 @@ public class RotateArray
                 }
             }
         }
-    }*/
+    }
 }

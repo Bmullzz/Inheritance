@@ -15,7 +15,8 @@ public class Human {
 
     }
     public Human(String theirName, int theirAge, boolean maleOrFemale, String theirOccupation, String theirAddress) {
-
+//make use of getters and setters, break up the constructors a bit
+        //make sure that sub class is actually inheriting methods from classes
         name = theirName;
         age = theirAge;
         isMale = maleOrFemale;
@@ -24,6 +25,7 @@ public class Human {
 
     }
     public String getName() {
+
         return name;
     }
 

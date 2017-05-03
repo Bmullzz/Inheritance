@@ -8,6 +8,7 @@ public class InventoryMain {
     public static void main (String[] args) {
 
         //initialize manager
+        //populate inventory
 
     }*/
 }

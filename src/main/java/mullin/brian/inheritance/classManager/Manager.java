@@ -7,9 +7,11 @@ public class Manager {
 
     //input new products
     //call inventory for a product
+    //demonstrate calling methods
+    //print outputs
 
-    //public CreateProduct {
+    /*public CreateProduct {
 
 
-    //}
+    }*/
 }
