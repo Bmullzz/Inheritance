@@ -8,5 +8,8 @@ public class Manager {
     //input new products
     //call inventory for a product
 
-    public
+    //public CreateProduct {
+
+
+    //}
 }

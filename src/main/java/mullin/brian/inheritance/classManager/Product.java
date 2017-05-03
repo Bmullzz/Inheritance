@@ -9,4 +9,23 @@ public class Product {
     //Price
     //ID
     //Quantity on hand
+    private String name;
+    private double price;
+    private long id;
+    private int quantity;
+
+    public Product() {
+
+    }
+    public Product(String productName, double productPrice, long productId, int productQuantity) {
+
+         name = productName;
+         price = productPrice;
+         id = productId;
+         quantity = productQuantity;
+
+    }
+
+
+
 }
