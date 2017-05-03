@@ -25,23 +25,35 @@ public class Human {
     }
     public String getName() {
 
-        return this.name;
+        return name;
     }
     public int getAge() {
 
-        return this.age;
+        return age;
     }
-    public boolean isMale() {
+    public String maleOrFemale()
+    {
 
-        return this.isMale;
+        if (isMale == true)
+        {
+
+            return "Male";
+        }
+
+        else
+        {
+
+            return "Female";
+        }
+
     }
     public String getOccupation() {
 
-        return this.occupation;
+        return occupation;
     }
 
     public String getAddress() {
 
-        return this.address;
+        return address;
     }
 }

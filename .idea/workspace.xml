@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85c79041-aa2d-4bb5-a707-53aaecec7269" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/Human.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/SuperHumans.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/superHumans/Human.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/superHumans/SuperHumans.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/rotateArray/RotateArray.java" afterPath="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/rotateArray/RotateArray.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/superHumans/SuperMayne.java" afterPath="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/SuperMayne.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/Human.java" afterPath="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/Human.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/SuperMayne.java" afterPath="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/SuperMayne.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,17 +33,17 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="SuperMayne.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="SuperMayne.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/SuperMayne.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                <state relative-caret-position="105">
+                  <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="RotateArray.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="RotateArray.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/rotateArray/RotateArray.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="915">
@@ -74,8 +70,8 @@
           <file leaf-file-name="Human.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/Human.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+                <state relative-caret-position="240">
+                  <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -112,8 +108,9 @@
         <option value="$PROJECT_DIR$/src/main/java/superHumans/Human.java" />
         <option value="$PROJECT_DIR$/src/main/java/superHumans/SuperMayne.java" />
         <option value="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/abstractClass/classManager/polymorphism/rotateArray/superHumans/SuperMayne.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/SuperMayne.java" />
         <option value="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/rotateArray/RotateArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/SuperMayne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/Human.java" />
       </list>
     </option>
   </component>
@@ -759,16 +756,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493669905727</updated>
-      <workItem from="1493669912248" duration="17931000" />
+      <workItem from="1493669912248" duration="20764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17931000" />
+    <option name="totallyTimeSpent" value="20764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-293" y="-1080" width="1920" height="1080" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -856,26 +853,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/Human.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/rotateArray/RotateArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="915">
+          <caret line="61" column="7" lean-forward="false" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/SuperMayne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/rotateArray/RotateArray.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mullin/brian/inheritance/superHumans/Human.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="7" lean-forward="false" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+        <state relative-caret-position="240">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding />
         </state>
       </provider>

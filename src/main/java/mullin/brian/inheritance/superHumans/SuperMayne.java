@@ -7,7 +7,14 @@ public class SuperMayne {
 
     public static void main (String[] args) {
 
-        Human brian = new Human("Brian", 24, true, "student", "Delaware");
+        Human brian = new Human("Brian", 24, true, "Student", "208 N. Spring Valley Rd.");
+
+
+        System.out.println("Name: " + brian.getName());
+        System.out.println("Age: " + brian.getAge());
+        System.out.println("Gender: " + brian.maleOrFemale());
+        System.out.println("Occupation: " + brian.getOccupation());
+        System.out.println("Address: " + brian.getAddress());
 
     }
 }
