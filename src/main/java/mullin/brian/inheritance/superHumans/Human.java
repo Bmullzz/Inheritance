@@ -24,36 +24,29 @@ public class Human {
 
     }
     public String getName() {
-
         return name;
     }
-    public int getAge() {
 
+    public int getAge() {
         return age;
     }
-    public String maleOrFemale()
-    {
 
-        if (isMale == true)
-        {
+    public String maleOrFemale() {
+        if (isMale == true) {
 
             return "Male";
         }
-
-        else
-        {
+        else {
 
             return "Female";
         }
 
     }
     public String getOccupation() {
-
         return occupation;
     }
 
     public String getAddress() {
-
         return address;
     }
 }
