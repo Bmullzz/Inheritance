@@ -46,10 +46,10 @@ public class ProductTest {
     @Test
     public void testGetId() {
         //: Given
-        long expectedId = 12345;
+        int expectedId = 12345;
 
         //: When
-        long actualId = product.getId();
+        int actualId = product.getId();
 
         //: Then
         Assert.assertEquals("The expected Id number is ", expectedId, actualId, 0.001);

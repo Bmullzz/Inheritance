@@ -12,10 +12,10 @@ public class Product {
 
     private String name;
     private double price;
-    private long id;
+    private int id;
     private int quantity;
 
-    public Product(String productName, double productPrice, long productId, int productQuantity) {
+    public Product(String productName, double productPrice, int productId, int productQuantity) {
 
          name = productName;
          price = productPrice;
@@ -31,13 +31,20 @@ public class Product {
 
         return price;
     }
-    public long getId() {
+    public int getId() {
 
         return id;
     }
     public int getQuantity() {
 
         return quantity;
+    }
+
+    @Override
+    public String toString() {
+
+        return String.format("Item: %s\nPrice: %.2f\nID #: %d\nQuantity: %d", name, price, id, quantity);
+
     }
 
 }
