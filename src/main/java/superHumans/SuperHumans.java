@@ -3,7 +3,8 @@ package superHumans;
 /**
  * Created by brianmullin on 5/2/17.
  */
-public class superHumans {
+public class SuperHumans extends Human {
 
-    public class s
+
+
 }
