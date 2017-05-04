@@ -1,5 +1,6 @@
-package mullin.brian.inheritance.abstractClass;
+package mullin.brian.inheritance.classManager.abstractClassTests;
 
+import mullin.brian.inheritance.abstractClass.Account;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -12,11 +13,8 @@ public class AccountTest {
     Account testAccount;
     Account booleanTrueTest;
     Account booleanFalseTest;
-
-    @Before
-    public void setUp() {
-        testAccount = new Account(true, 1234);
-    }
+    Account validPinTest;
+    Account invalidPinTest;
 
 
     @Test
@@ -46,6 +44,33 @@ public class AccountTest {
         Assert.assertEquals("The expected string is ", expectedResult, actualResult);
 
     }
+    @Test
+    public void testValidUserPin() {
+        //: Given
+        String expectedResult = "Welcome";
+
+        //: When
+        validPinTest = new Account(true, 1234);
+        String actualResult = validPinTest.getPin();
+
+        //: Then
+        Assert.assertEquals("The expected string is ", expectedResult, actualResult);
+
+    }
+    @Test
+    public void testInvalidUserPin() {
+        //: Given
+        String expectedResult = "Invalid PIN";
+
+        //: When
+        invalidPinTest = new Account(true, 12345);
+        String actualResult = invalidPinTest.getPin();
+
+        //: Then
+        Assert.assertEquals("The expected string is ", expectedResult, actualResult);
+
+    }
+
 
 
 }

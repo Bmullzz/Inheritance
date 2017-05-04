@@ -1,5 +1,6 @@
-package mullin.brian.inheritance.classManager;
+package mullin.brian.inheritance.classManager.ProductTest;
 
+import mullin.brian.inheritance.classManager.Product;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
