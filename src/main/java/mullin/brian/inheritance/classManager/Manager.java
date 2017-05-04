@@ -9,8 +9,10 @@ public class Manager {
     //call inventory for a product
     //demonstrate calling methods
     //print outputs
+/*
+    public {
 
-    /*public CreateProduct {
+
 
 
     }*/

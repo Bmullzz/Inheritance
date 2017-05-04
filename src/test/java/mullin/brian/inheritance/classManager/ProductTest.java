@@ -12,7 +12,7 @@ public class ProductTest {
     Product product;
 
     @Before
-    public void setup() {
+    public void setUp() {
         product = new Product("Banana", 1.25, 12345, 50);
     }
 

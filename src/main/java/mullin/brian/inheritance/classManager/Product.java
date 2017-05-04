@@ -5,10 +5,10 @@ package mullin.brian.inheritance.classManager;
  */
 public class Product {
 
-    //create products
-    //Price
-    //ID
-    //Quantity on hand
+    //create products-check
+    //Price-check
+    //ID-check
+    //Quantity on hand-check
 
     private String name;
     private double price;
