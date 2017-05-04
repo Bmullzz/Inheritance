@@ -9,5 +9,13 @@ package mullin.brian.inheritance.abstractClass;
     //Print all output to screen
 
 public class ATMain {
-    /
+
+    public static void main (String[] args) {
+
+        Account checking = new Account(true, 1234);
+
+        System.out.println(checking.getDebitCard());
+
+    }
+
 }

@@ -15,6 +15,6 @@ public class Inventory{
 
     }
 
-    public void addAvacadoToInventory ()
+    //public void addAvacadoToInventory
 
 }
