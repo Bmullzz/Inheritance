@@ -15,6 +15,8 @@ public class Product {
     private int id;
     private int quantity;
 
+    public Product() {}
+
     public Product(String productName, double productPrice, int productId, int productQuantity) {
 
          name = productName;
