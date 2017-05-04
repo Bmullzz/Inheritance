@@ -1,4 +1,4 @@
-package mullin.brian.inheritance.classManager;
+package mullin.brian.inheritance.abstractClass;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -10,6 +10,8 @@ import org.junit.Test;
 public class AccountTest {
 
     Account testAccount;
+    Account booleanTrueTest;
+    Account booleanFalseTest;
 
     @Before
     public void setUp() {
@@ -18,16 +20,32 @@ public class AccountTest {
 
 
     @Test
-    public void testGetName() {
+    public void testValidUserDebitCard() {
         //: Given
-        String expectedName = "Banana";
+        String expectedResult = "Please enter PIN: ";
 
         //: When
-        String actualName = product.getName();
+        booleanTrueTest = new Account(true, 1234);
+        String actualResult = booleanTrueTest.getDebitCard();
 
         //: Then
-        Assert.assertEquals("The expected product name is ", expectedName, actualName);
+        Assert.assertEquals("The expected string is ", expectedResult, actualResult);
 
     }
+
+    @Test
+    public void testInvalidUserDebitCard() {
+        //: Given
+        String expectedResult = "Invalid Card";
+
+        //: When
+        booleanFalseTest = new Account(false, 1234);
+        String actualResult = booleanFalseTest.getDebitCard();
+
+        //: Then
+        Assert.assertEquals("The expected string is ", expectedResult, actualResult);
+
+    }
+
 
 }

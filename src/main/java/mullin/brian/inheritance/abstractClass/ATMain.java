@@ -12,9 +12,9 @@ public class ATMain {
 
     public static void main (String[] args) {
 
-        Account checking = new Account(true, 1234);
+        //Account checking = new Account(true);
 
-        System.out.println(checking.getDebitCard());
+        //System.out.println(checking.getDebitCard());
 
     }
 

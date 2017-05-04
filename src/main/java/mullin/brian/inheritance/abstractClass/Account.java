@@ -13,7 +13,7 @@ package mullin.brian.inheritance.abstractClass;
 public class Account {
 
     private boolean debitCard;
-    private int pin;
+    //private int pin;
 
     public Account() {
 
@@ -28,18 +28,28 @@ public class Account {
 
     public String getDebitCard() {
 
-        if (debitCard == true) {
+        if (debitCard != false) {
 
-            return "Please enter PIN: ";
+            return "Please enter 4 digit PIN: ";
         }
         else {
 
             return "Invalid Card";
         }
-    }/*
+    }
 
-    public int getPin() {}
+    public String getPin() {
+        if (pin > 4){
 
+            return "Welcome";
+        }
+        else{
+
+            return "Invalid PIN";
+        }
+
+    }
+/*
     public String accountList() {}
 
     public accountOptions() {}*/
