@@ -19,7 +19,7 @@ public class Account {
 
     }
 
-    public Account(boolean userDebitCard, int userPin) {
+    public Account( String userDebitCard, int userPin) {
 
         debitCard = userDebitCard;
         pin = userPin;
@@ -34,7 +34,7 @@ public class Account {
         }
         else {
 
-            return "Invalid Card";
+            return "Invalid";
         }
     }
 

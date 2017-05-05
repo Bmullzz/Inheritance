@@ -10,7 +10,6 @@ import org.junit.Test;
  */
 public class AccountTest {
 
-    Account testAccount;
     Account booleanTrueTest;
     Account booleanFalseTest;
     Account validPinTest;
