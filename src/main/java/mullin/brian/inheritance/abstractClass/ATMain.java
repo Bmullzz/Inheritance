@@ -10,14 +10,14 @@ package mullin.brian.inheritance.abstractClass;
 
 public class ATMain {
 
-    public static void main (String[] args) {
+    //public static void main (String[] args) {
 
-        UserInterface user = new UserInterface();
+        //UserInterface user = new UserInterface();
 
         //Account checking = new Account(true, 1234);
 
         //System.out.println(checking.getDebitCard());
 
-    }
+   // }
 
 }

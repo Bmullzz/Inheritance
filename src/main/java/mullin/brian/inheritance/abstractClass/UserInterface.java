@@ -4,10 +4,10 @@ import java.util.Scanner;
 import java.util.*;
 
 //takes user input, sends to account
-
+/*
 /**
  * Created by brianmullin on 5/4/17.
- */
+ *
 public class UserInterface {
 
     Scanner input = new Scanner(System.in);
@@ -29,7 +29,7 @@ public class UserInterface {
     }
 
 
-}
+}*/
 
 
 

@@ -9,10 +9,20 @@ public class Inventory{
     //Track multiple products
     //sum inventory value
 
-    ArrayList<Product> inventory = new ArrayList<Product>();
+    ArrayList<Product> listOfProducts = new ArrayList<Product>();
 
     public Inventory() {
 
+    }
+
+    public double totalInventoryValue(){
+        double sumCounter = 0;
+
+        for (Product p: listOfProducts){
+           sumCounter += p.getPrice() * p.getQuantity();
+
+        }
+        return sumCounter;
     }
 
     //public void addAvacadoToInventory

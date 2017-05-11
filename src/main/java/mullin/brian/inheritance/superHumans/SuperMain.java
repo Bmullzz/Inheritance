@@ -18,10 +18,15 @@ public class SuperMain {
         System.out.println("Occupation: " + brian.getOccupation());
         System.out.println("Address: " + brian.getAddress());
 
-        SuperHuman theProgrammer = new SuperHuman(true, "The Programmer", "Able to code very slowly!");
+        SuperHuman theProgrammer = new SuperHuman("Kevin", 28, true, "Employed", "Seaford", true, "The Programmer", "Able to code very better than I can!");
 
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ");
         System.out.println("Super Human Profile");
+        System.out.println("Name: " + theProgrammer.getName());
+        System.out.println("Age: " + theProgrammer.getAge());
+        System.out.println("Gender: " + theProgrammer.maleOrFemale());
+        System.out.println("Occupation: " + theProgrammer.getOccupation());
+        System.out.println("Address: " + theProgrammer.getAddress());
         System.out.println("Good or Bad: " + theProgrammer.goodOrBad());
         System.out.println("Hero Name: " + theProgrammer.getHeroName());
         System.out.println("Super Ability: " + theProgrammer.getSuperAbility());
