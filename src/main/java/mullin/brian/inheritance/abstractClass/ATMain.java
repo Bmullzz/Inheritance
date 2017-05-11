@@ -10,14 +10,21 @@ package mullin.brian.inheritance.abstractClass;
 
 public class ATMain {
 
-    //public static void main (String[] args) {
+    public static void main (String[] args) {
 
-        //UserInterface user = new UserInterface();
+        BusinessAccount busy = new BusinessAccount(2453, 1000000);
+        CheckingAccount checky = new CheckingAccount(3452345, 800000000);
+        SavingsAccount savvy = new SavingsAccount(3, 12);
 
-        //Account checking = new Account(true, 1234);
+        BankAccounts banksy = new BankAccounts();
 
-        //System.out.println(checking.getDebitCard());
+        banksy.listOfAccounts.add(busy);
+        banksy.listOfAccounts.add(checky);
+        banksy.listOfAccounts.add(savvy);
 
-   // }
+        banksy.printAccountInfo();
+        banksy.printSumOfAccounts();
+
+    }
 
 }

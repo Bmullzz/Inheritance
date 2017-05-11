@@ -9,49 +9,44 @@ package mullin.brian.inheritance.abstractClass;
    -Select Account
    -Display Account Options (check balance, withdraw, deposit)
 */
-/*
-public class Account {
 
-    private boolean debitCard;
-    private int pin;
+public abstract class Account {
 
-    public Account() {
+    private int accountNum;
+    private double balance;
 
+    public Account(int accountNum, double balance){
+
+        this.accountNum = accountNum;
+        this.balance = balance;
     }
 
-    public Account( boolean userDebitCard, int userPin) {
+    public double getBalance(){
 
-        debitCard = userDebitCard;
-        pin = userPin;
-
+        return balance;
     }
 
-    public String getDebitCard() {
+    public double deposit(double amount){
 
-        if (debitCard != false) {
+        balance += amount;
 
-            return "Please enter 4 digit PIN: ";
-        }
-        else {
-
-            return "Invalid";
-        }
+        return balance;
     }
 
-    public String getPin() {
-        if (pin <= 4){
+    public double withdraw(double amount){
 
-            return "Welcome";
-        }
-        else{
+        balance -= amount;
 
-            return "Invalid PIN";
-        }
-
+        return balance;
     }
-/*
-    public String accountList() {}
 
-    public accountOptions() {}*
+    public int getAccountNum() {
 
-}*/
+        return accountNum;
+    }
+
+
+
+}
+
+
