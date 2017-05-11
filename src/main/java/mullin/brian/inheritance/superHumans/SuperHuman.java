@@ -13,8 +13,10 @@ public class SuperHuman extends Human {
 
     }
 
-    public SuperHuman(boolean goodOrBad, String theirHeroName, String theirSuperAbility) {
+    public SuperHuman(String theirName, int theirAge, boolean maleOrFemale, String theirOccupation,
+                      String theirAddress,boolean goodOrBad, String theirHeroName, String theirSuperAbility) {
 
+        super(theirName, theirAge, maleOrFemale, theirOccupation, theirAddress);
         isGood = goodOrBad;
         heroName = theirHeroName;
         superAbility = theirSuperAbility;

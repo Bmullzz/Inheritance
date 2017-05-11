@@ -9,7 +9,7 @@ package mullin.brian.inheritance.abstractClass;
    -Select Account
    -Display Account Options (check balance, withdraw, deposit)
 */
-
+/*
 public class Account {
 
     private boolean debitCard;
@@ -19,7 +19,7 @@ public class Account {
 
     }
 
-    public Account( String userDebitCard, int userPin) {
+    public Account( boolean userDebitCard, int userPin) {
 
         debitCard = userDebitCard;
         pin = userPin;
@@ -52,6 +52,6 @@ public class Account {
 /*
     public String accountList() {}
 
-    public accountOptions() {}*/
+    public accountOptions() {}*
 
-}
+}*/
